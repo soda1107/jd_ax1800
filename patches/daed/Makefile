@@ -78,7 +78,7 @@ define Build/Prepare
 		git submodule update --init ; \
 		go mod tidy ; \
 		popd ; \
-		pushd $(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)/wing ; \
+		pushd $(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)/wing  ; \
 		go mod tidy ; \
 		popd ; \
 		pushd $(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION) ; \
