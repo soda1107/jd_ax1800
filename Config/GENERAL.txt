@@ -23,6 +23,8 @@ CONFIG_PACKAGE_luci-app-upnp=y
 #CONFIG_PACKAGE_luci-app-pushbot=y
 #CONFIG_PACKAGE_luci-app-mwan3=y
 CONFIG_PACKAGE_luci-app-argon-config=y
+CONFIG_PACKAGE_AdGuardHome=y
+CONFIG_PACKAGE_luci-app-AdGuardHome=y
 
 #删除插件
 CONFIG_PACKAGE_luci-app-wol=n
