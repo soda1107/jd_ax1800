@@ -99,6 +99,7 @@ jobs:
           sudo -E apt -yqq autoclean
           sudo -E apt -yqq clean
           sudo -E apt -yqq install dos2unix libfuse-dev
+          sudo chmod +x $GITHUB_WORKSPACE/Scripts/init_build_environment.sh
           sudo bash $GITHUB_WORKSPACE/Scripts/init_build_environment.sh
           sudo -E systemctl daemon-reload
           sudo -E timedatectl set-timezone "Asia/Shanghai"
